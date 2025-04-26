@@ -3,7 +3,7 @@ import { router } from "./Components/Routes/Router";
 import "./App.css";
 function App() {
   return (
-    <div className="bg-white text-black">
+    <div>
       <RouterProvider router={router} />
     </div>
   );
